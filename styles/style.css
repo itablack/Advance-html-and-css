@@ -10,9 +10,9 @@ body {
 }
 .hero-container { 
     width: 100%;
-    height: 29em;
+    height: 674px;
     background-size: 100%;
-    background-image: url(../assets/image\ 1.svg);
+    background-image: url(../assets/herobackground.png);
 }
 .navbar { 
     display: flex;
@@ -20,14 +20,35 @@ body {
     margin: auto;
     padding: 10px 30px;
 }
+.nav-translate{
+    width: 96px;
+    height: 36px;
+    background: rgba(0, 0, 0, .4);
+    color: #fff;
+    border: 1px solid #aaaaaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 .signin-btn { 
     color: #fff;
-    text-decoration: none;
-    border: solid red 1px;
     background: red;
     width: 85px;
-    padding: 1px 10px;
+    /* padding: 1px 10px; */
     height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    border: none;
+
 }
 .form-input{
     color: #fff;
@@ -44,12 +65,16 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 2em;
+    justify-content: center;
+    height: 760px;
+    /* margin-top: 2em; */
 }
 .hero-text {
     text-transform: capitalize;
     font-size: 64px;
     font-weight: bold;
+    line-height: 70.4px;
+    letter-spacing: -0.5%;
 }
 .hero-paragraph{
     font-weight: lighter;
@@ -104,4 +129,53 @@ body {
     justify-content: center;
     margin-top:1px;
 
+}
+
+.image-background{
+    background-image: url(../assets/Rectangle.svg);
+    width: 400px;
+    height: 380px;
+}
+.api-image{ 
+    position: relative;
+    width: 330px;
+    height: 360px;
+    margin-left: 70px;
+}
+
+.image-background-2{
+    background-image: url(../assets/Rectangle\ \(2\).svg);
+    width: 400px;
+    height: 400px;
+
+}
+.image-background-4{
+    background-image: url(../assets/Rectangle\ \(4\).svg);
+    width: 400px;
+    height: 400px;
+
+}
+.image-background-3{ 
+    background-image: url(../assets/Rectangle\ \(3\).svg);
+    width: 550px;
+    height: 400px;
+    align-items: center;
+    align-content: center;
+}
+.api-image-3{
+    position: relative;
+    width: 340px;
+    height: 192px;
+    margin-left: 110px;
+}
+
+.frame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    align-content: center;
+    /* background: #333; */
+    height: 104px;
+    /* width: 331px; */
 }
